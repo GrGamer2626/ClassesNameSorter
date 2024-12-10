@@ -38,6 +38,8 @@ public class CharacterCounterServiceImpl implements CharacterCounterService {
 	public int countSharedCharacters(@NonNull final String input1, @NonNull final String input2) {
 		Assert.notNull(input1, "The input1 string must not be null");
 		Assert.notNull(input2, "The input2 string must not be null");
+		Assert.hasText(input1, "The input1 string must not be empty");
+		Assert.hasText(input2, "The input2 string must not be empty");
 		
 		Map<Character, Integer> input1CharCount = countCharacterFrequencies(input1);
 		int sharedCount = 0;

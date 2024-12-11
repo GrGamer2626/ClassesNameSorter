@@ -1,11 +1,13 @@
 package me.grgamer2626.classesNameSorter.application.charactersCounter;
 
 import org.springframework.lang.NonNull;
+import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class CharacterCounterServiceImpl implements CharacterCounterService {
 	
 	/**

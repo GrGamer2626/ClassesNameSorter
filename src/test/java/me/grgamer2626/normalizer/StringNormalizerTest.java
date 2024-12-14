@@ -40,4 +40,16 @@ public class StringNormalizerTest {
 		//then
 		Assertions.assertEquals("aaa", result, "All whitespaces should be removed.");
 	}
+	
+	@Test
+	public void normalize_inputContainsSpecialCharacters() {
+		//given
+		String input = " \"a-.,!aa'|\\";
+		
+		//when
+		String result = stringNormalizer.normalize(input);
+		
+		//then
+		Assertions.assertEquals("aaa", result, "All whitespaces should be removed.");
+	}
 }

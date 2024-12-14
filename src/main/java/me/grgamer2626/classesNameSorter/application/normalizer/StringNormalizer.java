@@ -8,7 +8,7 @@ import org.springframework.util.Assert;
 public class StringNormalizer implements Normalizer<String>{
 	
 	/**
-	 * Removes all whitespace and changes all characters to lowercase.
+	 * Removes all characters that are not letters or numbers and changes all characters to lowercase.
 	 *
 	 * @param input string to normalize
 	 *
@@ -19,6 +19,6 @@ public class StringNormalizer implements Normalizer<String>{
 	public String normalize(@NonNull String input) {
 		Assert.notNull(input, "the input for normalization must not be null.");
 		
-		return input.toLowerCase().replaceAll("\\s+", "");
+		return input.toLowerCase().replaceAll("[^a-z0-9]", "");
 	}
 }

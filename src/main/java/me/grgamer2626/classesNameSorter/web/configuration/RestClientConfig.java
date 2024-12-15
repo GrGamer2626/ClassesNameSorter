@@ -1,4 +1,4 @@
-package me.grgamer2626.web.configuration;
+package me.grgamer2626.classesNameSorter.web.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

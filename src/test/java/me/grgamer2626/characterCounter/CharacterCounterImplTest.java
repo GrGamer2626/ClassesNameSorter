@@ -1,7 +1,7 @@
 package me.grgamer2626.characterCounter;
 
-import me.grgamer2626.classesNameSorter.application.charactersCounter.CharacterCounterService;
-import me.grgamer2626.classesNameSorter.application.charactersCounter.CharacterCounterServiceImpl;
+import me.grgamer2626.classesNameSorter.application.common.charactersCounter.CharacterCounterService;
+import me.grgamer2626.classesNameSorter.application.common.charactersCounter.CharacterCounterServiceImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

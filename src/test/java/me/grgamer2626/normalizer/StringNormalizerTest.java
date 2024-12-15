@@ -1,7 +1,7 @@
 package me.grgamer2626.normalizer;
 
-import me.grgamer2626.classesNameSorter.application.normalizer.Normalizer;
-import me.grgamer2626.classesNameSorter.application.normalizer.StringNormalizer;
+import me.grgamer2626.classesNameSorter.application.common.normalizer.Normalizer;
+import me.grgamer2626.classesNameSorter.application.common.normalizer.StringNormalizer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package me.grgamer2626.classesNameSorter.application.normalizer;
+package me.grgamer2626.classesNameSorter.application.common.normalizer;
 
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package me.grgamer2626.classesNameSorter.application.charactersCounter;
+package me.grgamer2626.classesNameSorter.application.common.charactersCounter;
 
 import org.springframework.lang.NonNull;
 
